@@ -1,111 +1,91 @@
-# 📊 Data Visualization System
+# 📊 Data Visualization Platform
 
-A full-stack data visualization platform developed during an internship at **Black Code (via Internshala)**.
-This project demonstrates a **monolithic architecture** where backend data processing and frontend dashboard rendering are tightly integrated into a single system.
-
----
-
-## 🏢 Internship Experience
-
-This project was built as part of a professional internship at **Black Code (Internshala)**.
-During this internship, I worked on developing backend APIs, handling data processing, and integrating the system with a frontend dashboard to visualize insights effectively.
+A full-stack data visualization system developed during an internship at **Black Code (via Internshala)**.  
+The platform processes data through backend APIs and presents insights using interactive dashboards.
 
 ---
 
-## 🚀 Tech Stack
+## 🏗️ Architecture
 
-* **Backend:** Java
-* **Frontend:** JavaScript
-* **Architecture:** Monolithic
-* **Communication:** REST APIs
-* **Build Tool:** Maven (if applicable)
-
----
-
-## 🧩 System Architecture
-
-This project follows a **monolithic architecture**, where all components are part of a single unified system.
-
-### Components:
-
-* **Backend Service**
-
-  * Handles data processing
-  * Exposes REST APIs
-* **Frontend Application**
-
-  * Consumes backend APIs
-  * Displays visual dashboards
-* **Visualization Dashboard**
-
-  * Provides user interface for insights and analytics
+- **Backend:** Java (REST APIs)
+- **Frontend:** JavaScript, HTML, CSS
+- **Architecture Style:** Monolithic
+- **Communication:** API-based data flow
 
 ---
 
-## 🔄 System Workflow
+## 🧩 System Design
 
-User Interaction
-⬇
-Frontend Dashboard (JavaScript)
-⬇
-API Requests
-⬇
-Backend (Java Processing Layer)
-⬇
-Data Processing & Response
+The system is built as a monolithic application with clear separation of concerns:
+
+- **Backend Layer**
+  - Handles data processing and business logic
+  - Exposes REST APIs
+
+- **Frontend Layer**
+  - Consumes APIs
+  - Renders interactive dashboards
+
+---
+
+## 🔄 Workflow
+
+User → Frontend Dashboard → API Requests → Backend Processing → Response → Visualization
 
 ---
 
 ## ✨ Key Features
 
-* Interactive data visualization dashboards
-* Backend API development and integration
-* Real-time data fetching and rendering
-* Structured data processing pipeline
-* Clean separation of frontend and backend logic
+- Interactive data visualization dashboards  
+- REST API development and integration  
+- Dynamic data rendering  
+- Structured data processing pipeline  
+- Frontend-backend integration  
 
 ---
 
-## 📌 Learning Outcomes
+## 🧠 My Contributions
 
-Through this project, I gained hands-on experience in:
-
-* Monolithic system design
-* Backend API development
-* Frontend-backend integration
-* Data flow and processing
-* Real-world project development during internship
+- Developed backend APIs using Java  
+- Designed and implemented frontend dashboard components  
+- Integrated frontend with backend services  
+- Handled data flow and processing logic  
 
 ---
 
-## ▶️ How to Run
+## 📌 Key Learnings
 
-1. Clone the repository
-2. Navigate to the backend directory and run the application
-3. Start the frontend application
-4. Open the dashboard in your browser
-
----
-
-## 🚧 Future Enhancements
-
-* Convert to microservices architecture
-* Add authentication and user roles
-* Improve UI/UX with advanced charts
-* Deploy using cloud platforms (AWS/Render)
-* Add real-time data streaming
+- API design and integration  
+- Full-stack system development  
+- Data flow management  
+- Monolithic architecture design  
 
 ---
 
-## 📈 Project Significance
+## ▶️ Running the Project
 
-This project reflects practical experience in building a real-world application during an internship and demonstrates understanding of backend systems, API design, and full-stack integration.
+1. Clone the repository  
+2. Start the backend service  
+3. Run the frontend application  
+4. Open the dashboard in browser  
+
+---
+
+## 🔗 Related Repositories
+
+- Frontend: https://github.com/Aj-world/data-vis-frontend
+- Backend: https://github.com/Aj-world/data-vis-backend
+ 
+
+---
+
+## 🚧 Status
+
+Completed as part of an internship project. Maintained as a reference for system design and full-stack development.
 
 ---
 
 ## 👨‍💻 Author
 
-**Abinash Nayak**
-Backend Developer | Java | Spring Boot | System Design
-
----
+**Abinash Nayak**  
+Backend Developer | Java | System Design
