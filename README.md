@@ -4,7 +4,12 @@ A full-stack data visualization system developed during an internship at **Black
 The platform processes data through backend APIs and presents insights using interactive dashboards.
 
 ---
+## 🔗 Related Repositories
 
+- Frontend: https://github.com/Aj-world/data-vis-frontend  
+- Backend: https://github.com/Aj-world/data-vis-backend  
+
+---
 ## 🚀 Overview
 
 This system enables users to visualize structured data through interactive dashboards by integrating a Java-based backend with a React-based frontend.
@@ -95,12 +100,7 @@ Visualization (Charts/UI)
 
 ---
 
-## 🔗 Related Repositories
 
-- Frontend: https://github.com/Aj-world/data-vis-frontend  
-- Backend: https://github.com/Aj-world/data-vis-backend  
-
----
 
 ## 🚧 Status
 
